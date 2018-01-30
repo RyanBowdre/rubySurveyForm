@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+<fieldset class='green'>
+<p>Thank you for submiting this form! Number of submissions is <%= session[:count] %></p>
+</fieldset>
+<fieldset>
+  <h2>Submitted Information</h2>
+  <table>
+    <tr>
+      <td>Name:</td>
+      <td><%= session[:name] %></td>
+    </tr>
+    <tr>
+      <td>Location:</td>
+      <td><%= session[:location] %></td>
+    </tr>
+    <tr>
+      <td>Language:</td>
+      <td><%= session[:language] %></td>
+    </tr>
+    <tr>
+      <td>Comment:</td>
+      <td><%= session[:comment] %></td>
+    </tr>
+  </table>
+</fieldset>
+  </body>
+</html>

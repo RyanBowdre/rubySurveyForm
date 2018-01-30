@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <fieldset>
+    <form action='/surveys' method='POST'>
+      <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+            <p>Your name: <input type="text" name="name"></p>
+            <p>Dojo Location: <select name="location">
+                <option>Mountain View</option>
+                <option>Los Angeles</option>
+                <option>Seattle</option>
+        </select></p>
+        <p>Favorite language: <select name="language">
+              <option>Ruby</option>
+              <option>Javascript</option>
+              <option>Python</option>
+        </select></p>
+        <p>Comment: <textarea name="comment">
+        </textarea></p>
+        <input type="submit" name="">
+      </form>
+    </fieldset>
+  </body>
+</html>

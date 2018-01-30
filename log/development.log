@@ -1,0 +1,307 @@
+
+
+Started GET "/" for 10.0.2.2 at 2017-10-15 22:34:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#index as HTML
+  Rendered surveys/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 1001ms (Views: 988.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/surveys.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 10.0.2.2 at 2017-10-15 22:34:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/surveys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 10.0.2.2 at 2017-10-15 22:34:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 10.0.2.2 at 2017-10-15 22:35:49 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#index as HTML
+  Rendered surveys/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 145ms (Views: 144.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-10-15 22:36:25 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#index as HTML
+  Rendered surveys/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 109ms (Views: 108.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-10-15 22:37:24 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#index as HTML
+  Rendered surveys/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 147ms (Views: 146.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-10-15 22:38:04 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#index as HTML
+  Rendered surveys/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 105ms (Views: 104.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-10-15 22:38:21 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#index as HTML
+  Rendered surveys/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 134ms (Views: 134.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-10-15 22:38:27 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#index as HTML
+  Rendered surveys/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 97ms (Views: 95.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-10-16 00:58:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#new as HTML
+  Rendered surveys/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 117ms (Views: 116.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-10-16 00:58:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#new as HTML
+  Rendered surveys/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 98ms (Views: 96.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/surveys" for 10.0.2.2 at 2017-10-16 01:41:01 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#submit as HTML
+  Parameters: {"authenticity_token"=>"Eurq5Kne+yUAcPEgxXvXB2Te5pRCyGt8ws9hlXx8FBP9K5XRJm0ya3T2q5ob8pDZP+j+HWMUW1wS6BfclX8WNA==", "name"=>"Ryan", "location"=>"Los Angeles", "language"=>"Ruby", "comment"=>"Here's my comment!"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/surveys_controller.rb:9:in `submit'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.7ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.6ms)
+
+
+Started POST "/surveys" for 10.0.2.2 at 2017-10-16 01:41:24 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#submit as HTML
+  Parameters: {"authenticity_token"=>"Eurq5Kne+yUAcPEgxXvXB2Te5pRCyGt8ws9hlXx8FBP9K5XRJm0ya3T2q5ob8pDZP+j+HWMUW1wS6BfclX8WNA==", "name"=>"Ryan", "location"=>"Los Angeles", "language"=>"Ruby", "comment"=>"Here's my comment!"}
+Redirected to http://localhost:3000/result
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/result" for 10.0.2.2 at 2017-10-16 01:41:24 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#result as HTML
+  Rendered surveys/result.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 125ms (Views: 124.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/result" for 10.0.2.2 at 2017-10-16 01:41:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#result as HTML
+  Rendered surveys/result.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 79ms (Views: 78.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/result" for 10.0.2.2 at 2017-10-16 01:41:41 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#result as HTML
+  Rendered surveys/result.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 94ms (Views: 92.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/surveys" for 10.0.2.2 at 2017-10-16 01:41:44 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#submit as HTML
+  Parameters: {"authenticity_token"=>"Eurq5Kne+yUAcPEgxXvXB2Te5pRCyGt8ws9hlXx8FBP9K5XRJm0ya3T2q5ob8pDZP+j+HWMUW1wS6BfclX8WNA==", "name"=>"Ryan", "location"=>"Los Angeles", "language"=>"Ruby", "comment"=>"Here's my comment!"}
+Redirected to http://localhost:3000/result
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/result" for 10.0.2.2 at 2017-10-16 01:41:45 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#result as HTML
+  Rendered surveys/result.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 123ms (Views: 122.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/surveys" for 10.0.2.2 at 2017-10-16 01:41:47 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#submit as HTML
+  Parameters: {"authenticity_token"=>"Eurq5Kne+yUAcPEgxXvXB2Te5pRCyGt8ws9hlXx8FBP9K5XRJm0ya3T2q5ob8pDZP+j+HWMUW1wS6BfclX8WNA==", "name"=>"Ryan", "location"=>"Los Angeles", "language"=>"Ruby", "comment"=>"Here's my comment!"}
+Redirected to http://localhost:3000/result
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/result" for 10.0.2.2 at 2017-10-16 01:41:47 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#result as HTML
+  Rendered surveys/result.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 91ms (Views: 90.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/surveys" for 10.0.2.2 at 2017-10-16 01:41:57 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#submit as HTML
+  Parameters: {"authenticity_token"=>"Eurq5Kne+yUAcPEgxXvXB2Te5pRCyGt8ws9hlXx8FBP9K5XRJm0ya3T2q5ob8pDZP+j+HWMUW1wS6BfclX8WNA==", "name"=>"Ryan", "location"=>"Los Angeles", "language"=>"Ruby", "comment"=>"Here's my comment!"}
+Redirected to http://localhost:3000/result
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/result" for 10.0.2.2 at 2017-10-16 01:41:57 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#result as HTML
+  Rendered surveys/result.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 111ms (Views: 110.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/surveys" for 10.0.2.2 at 2017-10-16 01:42:02 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#submit as HTML
+  Parameters: {"authenticity_token"=>"Eurq5Kne+yUAcPEgxXvXB2Te5pRCyGt8ws9hlXx8FBP9K5XRJm0ya3T2q5ob8pDZP+j+HWMUW1wS6BfclX8WNA==", "name"=>"Ryan", "location"=>"Los Angeles", "language"=>"Javascript", "comment"=>"Here's my comment!"}
+Redirected to http://localhost:3000/result
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/result" for 10.0.2.2 at 2017-10-16 01:42:02 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#result as HTML
+  Rendered surveys/result.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 121ms (Views: 120.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/surveys" for 10.0.2.2 at 2017-10-16 01:44:24 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#submit as HTML
+  Parameters: {"authenticity_token"=>"Eurq5Kne+yUAcPEgxXvXB2Te5pRCyGt8ws9hlXx8FBP9K5XRJm0ya3T2q5ob8pDZP+j+HWMUW1wS6BfclX8WNA==", "name"=>"Chase", "location"=>"Seattle", "language"=>"Python", "comment"=>"Here's my comment!"}
+Redirected to http://localhost:3000/result
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/result" for 10.0.2.2 at 2017-10-16 01:44:24 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#result as HTML
+  Rendered surveys/result.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 125ms (Views: 124.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/surveys" for 10.0.2.2 at 2017-10-16 01:46:56 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#submit as HTML
+  Parameters: {"authenticity_token"=>"Eurq5Kne+yUAcPEgxXvXB2Te5pRCyGt8ws9hlXx8FBP9K5XRJm0ya3T2q5ob8pDZP+j+HWMUW1wS6BfclX8WNA==", "name"=>"Chase", "location"=>"Seattle", "language"=>"Python", "comment"=>"Here's my comment!"}
+Redirected to http://localhost:3000/result
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/result" for 10.0.2.2 at 2017-10-16 01:46:56 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#result as HTML
+  Rendered surveys/result.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 108ms (Views: 107.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-10-16 01:47:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#new as HTML
+  Rendered surveys/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 108ms (Views: 107.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/surveys" for 10.0.2.2 at 2017-10-16 01:47:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#submit as HTML
+  Parameters: {"authenticity_token"=>"kwntYUXu6oDThnoa1rjOFKSrChxoUwoUzfHRLyHlvnV8yJJUyl0jzqcAIKAIMYnK/50SlUmPOjQd1qdmyOa8Ug==", "name"=>"jhkjhj", "location"=>"Mountain View", "language"=>"Ruby", "comment"=>"kjhkj        "}
+Redirected to http://localhost:3000/result
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/result" for 10.0.2.2 at 2017-10-16 01:47:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#result as HTML
+  Rendered surveys/result.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 85ms (Views: 84.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-10-16 01:52:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#new as HTML
+  Rendered surveys/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 92ms (Views: 91.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-10-16 01:52:46 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#new as HTML
+  Rendered surveys/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 118ms (Views: 117.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/surveys" for 10.0.2.2 at 2017-10-16 01:52:54 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#submit as HTML
+  Parameters: {"authenticity_token"=>"AGg8YIgF/fSKjSeK5knGIZkCMcHU96/90m3Ti7A+7vbvqUNVB7Y0uv4LfTA4wIH/wjQpSPUrn90CSqXCWT3s0Q==", "name"=>"ok;okk", "location"=>"Mountain View", "language"=>"Ruby", "comment"=>"       ll;m;lm;m;lm;l"}
+Redirected to http://localhost:3000/result
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/result" for 10.0.2.2 at 2017-10-16 01:52:54 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#result as HTML
+  Rendered surveys/result.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 81ms (Views: 80.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/result" for 10.0.2.2 at 2017-10-16 01:53:54 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#result as HTML
+  Rendered surveys/result.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 90ms (Views: 88.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/result" for 10.0.2.2 at 2017-10-16 01:54:04 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#result as HTML
+  Rendered surveys/result.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 82ms (Views: 80.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/result" for 10.0.2.2 at 2017-10-16 01:54:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#result as HTML
+  Rendered surveys/result.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 127ms (Views: 126.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/result" for 10.0.2.2 at 2017-10-16 01:55:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#result as HTML
+  Rendered surveys/result.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 107ms (Views: 105.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2017-10-16 01:55:23 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#new as HTML
+  Rendered surveys/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 83ms (Views: 82.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/surveys" for 10.0.2.2 at 2017-10-16 01:55:28 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#submit as HTML
+  Parameters: {"authenticity_token"=>"CL18LTZHvbwzb5yveLPWw7fbQyskxOIQxDvA/e600zLnfAMYufR08kfpxhWmOpEd7O1bogUY0jAUHLa0B7fRFQ==", "name"=>"ljljlkjk", "location"=>"Mountain View", "language"=>"Ruby", "comment"=>"        k;lk;lk;l"}
+Redirected to http://localhost:3000/result
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/result" for 10.0.2.2 at 2017-10-16 01:55:28 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SurveysController#result as HTML
+  Rendered surveys/result.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 81ms (Views: 80.1ms | ActiveRecord: 0.0ms)
